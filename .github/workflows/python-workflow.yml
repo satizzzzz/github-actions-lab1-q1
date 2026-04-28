@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: chekout
-      uses: actions/checkout@6
+      uses: actions/checkout@v6
     - name: Set up Python 3.11
       uses: actions/setup-python@v5
       with:
